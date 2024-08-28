@@ -1,3 +1,7 @@
+*.code-workspace
+*.log
+coverage/
+
 # Logs
 logs
 *.log
