@@ -12,7 +12,7 @@ interface RunOptions {
 export class ServerApp {
 
 
-    static async run({ base, limit, showTable, name, destination }: RunOptions) {
+    static run({ base, limit, showTable, name, destination }: RunOptions) {
         console.log('server running...');
 
         const table = new CreateTable().execute({ base, limit });
