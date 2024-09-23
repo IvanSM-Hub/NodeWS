@@ -1,3 +1,5 @@
+.env
+
 *.code-workspace
 *.log
 coverage/
